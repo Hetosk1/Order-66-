@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Fab Designs</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header{
+            background-color: aquamarine;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color:white;
+            text-align: center;
+            padding: 20px;
+            float : left;
+        }
+        nav{
+            background-color: black;
+            overflow : hidden;
+        }
+        nav a:hover{
+            color:black;
+            background-color: white;
+        }
+        .span1{
+            font-size: 25px;
+            margin: 10px;
+            font-weight: bolder;
+        }
+        .span2{
+            margin: 10px;
+            font-weight: bold;
+        }
+        .userinfo{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: rgb(218, 246, 237);
+        }
+        .subsinfo{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: rgb(218, 246, 237);
+        }
+        .accsettings{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: rgb(218, 246, 237);
+        }
+        input[type="submit"]
+        {
+            background-color: aqua;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;}
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>Fab Designs</h1>
+    </header>
+
+
+    <nav>
+        <a href="http://127.0.0.1:5500/html/index.html">Home</a>&emsp13; |
+        <a href="#">Shop</a>&emsp13; |
+        <a href="#">Online Customization</a>&emsp13; |
+        <a href="http://127.0.0.1:5500/html/try2.html?coutry=India#">Login</a>&emsp13; |
+    </nav>
+
+
+    <br>
+
+
+    <p><span class="span1">Login</span>|<span class="span2">Fab Desings</span></p>
+
+
+    <form>
+        <fieldset class="userinfo">
+            <legend>User Information</legend>
+            <table>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="coutry" >
+                            <option >India</option>
+                            <option >U.S.A</option>
+                            <option >United Kingdom</option>
+                            <option >Pakistan</option>
+                            <option >Israel</option>
+                            <option >Russia</option>
+                            <option >Czech</option>
+                            <option >France</option>
+                            <option >Spain</option>
+                            <option >Quatar</option>
+                            <option >U.A.E</option>
+                            <option >Vietnam</option>
+                            <option >Afghanistan</option>
+                            <option >Germany</option>
+                            <option >Canada</option>
+                            <option >Brazil</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Residental Address</td>
+                    <td><textarea cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="tel"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+        <fieldset class="subsinfo">
+            <legend>Account Information</legend>
+            <table>
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Profile Picture</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>About Yourself</td>
+                    <td><textarea cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gmail</td>
+                    <td><input type="gmail"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+        <fieldset class="accsettings">
+            <table>
+            <legend>Account Settings</legend>
+            <tr>
+                <td>How would you like to get reccomendations</td>
+                <td>
+                    <select>
+                        <option>Gmail</option>
+                        <option>WhatsApp</option>
+                        <option>Text</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Sale Reminders</td>
+                <td>
+                    <select>
+                        <option>Gmail</option>
+                        <option>WhatsApp</option>
+                        <option>Text</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Data-BackUp Frequency</td>
+                <td>
+                    <select>
+                        <option>1 Week</option>
+                        <option>3 Week</option>
+                        <option>1 Month</option>
+                        <option>6 Month</option>
+                        <option>1 Year</option>
+                        <option>Never</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+        <center><input class="register" type="submit" value="Login"></center>
+    </form>
+</body>
+</html>
