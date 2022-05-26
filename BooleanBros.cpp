@@ -364,6 +364,7 @@ int main()
 	char quit[50]="/quit";
 	char clear[50]="/clear";
 	char input[50]="";
+	cout<<"type '/help' to begin"<<endl;
 	while(1)
 	{	
 		newscreen:
@@ -443,10 +444,10 @@ int main()
 			cout<<"The BooleanBros is a free converter used by enginners"<<endl;
 			cout<<"Our converter does not provide the faciality to perform calcutation with decimal points (eg.1212.212)"<<endl;
 			cout<<"Our converter has a very user friendly interface as explained below : "<<endl<<endl;
-			cout<<"To perform a coversion use have to use the input format"<<endl;
+			cout<<"To perform a coversion you have to use the input format"<<endl;
 			cout<<"-->'/convert:a:b'"<<endl;
 			cout<<"where, a is the type of the number you have to be converted"<<endl;
-			cout<<"\tb is the type of the numner you want as the result"<<endl<<endl;
+			cout<<"\tb is the type of the number you want as the result"<<endl<<endl;
 			cout<<"To close the program one must write the following command:"<<endl;
 			cout<<"-->/quit"<<endl<<endl;
 			cout<<"this program is brought by :"<<endl;
